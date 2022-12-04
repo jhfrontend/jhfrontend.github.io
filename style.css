@@ -6,17 +6,17 @@
 .hidden{
     display:none;
 }
-div{
+.centered{
     left: 0;
     right: 0;
     margin-top: 30px;
     position : absolute;
     text-align: center;
 }
-div{
+.centered{
     transition:0.5s all;
 }
-div:hover{
+.centered:hover{
     top: 50px;
     transform:translateY(-50%);
 }
